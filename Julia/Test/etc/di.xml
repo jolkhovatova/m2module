@@ -1,0 +1,11 @@
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+<type name="Magento\Theme\Block\Html\Title">
+    <plugin name="change_title_plugin" type="Julia\Test\Plugin\ChangeTitlePlugin" sortOrder="1" disabled="false"  />
+</type>
+
+    <type name="Magento\Theme\Block\Html\Title">
+        <plugin name="change_category_plugin" type="Julia\Test\Plugin\ChangeCategoryPlugin" sortOrder="10" disabled="false"  />
+    </type>
+</config>
+
